@@ -1,0 +1,14 @@
+{
+  "enemies": {
+    "Cyclops-Blue-L02": {
+      "zones": [
+        "WizardCity/WC_Streets/WC_Cyclops"
+      ]
+    },
+    "Troll-Green-L01": {
+      "zones": [
+        "WizardCity/WC_Streets/WC_Cyclops"
+      ]
+    }
+  }
+}

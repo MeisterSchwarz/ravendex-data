@@ -1,5 +1,8 @@
 {
   "enemies": {
+    "Cyclops-Blue-L02": {
+      "name": "Zyklopen-Legionär"
+    },
     "Troll-Green-L01": {
       "name": "Träger Troll"
     }

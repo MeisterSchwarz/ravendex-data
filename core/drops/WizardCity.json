@@ -1,9 +1,12 @@
 {
   "drops": {
+    "Cyclops-Blue-L02": [
+        "tc_leather-straps"
+    ],
     "Troll-Green-L01": [
-      "tc_troll",
+        "tc_troll",
 
-      "bt_roughspun-shoes"
-    ]
-  }
+        "bt_roughspun-shoes"
+      ]
+    }
 }
