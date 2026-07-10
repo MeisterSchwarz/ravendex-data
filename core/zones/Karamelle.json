@@ -1,0 +1,45 @@
+{
+  "zones": {
+    "Karamelle/KM_Z00_HUB": {},
+    "Karamelle/KM_Z02_CandyMountains": {},
+    "Karamelle/KM_Z03_GumdropForest": {},
+    "Karamelle/KM_Z04_Sweetzburg": {},
+    "Karamelle/KM_Z05_Nibbleheim": {},
+    "Karamelle/KM_Z06_Mines": {},
+    "Karamelle/KM_Z07_Gutenstadt": {},
+    "Karamelle/KM_Z08_LicoriceForest": {},
+    "Karamelle/KM_Z09_CandyCornFarm": {},
+    "Karamelle/KM_Z10_Gobblerton": {},
+
+    "Karamelle/Interiors/KM_Z00_Glockenspiel_01": {},
+
+    "Karamelle/Interiors/KM_Z03_HangryGobblerCave_01": {},
+
+    "Karamelle/Interiors/KM_Z04_BonBon": {},
+    "Karamelle/Interiors/KM_Z04_GummyPlant": {},
+    "Karamelle/Interiors/KM_Z04_IceCreamParlor": {},
+    "Karamelle/Interiors/KM_Z04_PowerRoom": {},
+
+    "Karamelle/Interiors/KM_Z05_ChocShoppe": {},
+    "Karamelle/Interiors/KM_Z05_PumpRoom": {},
+    "Karamelle/Interiors/KM_Z05_TreacleFoundry": {},
+
+    "Karamelle/Interiors/KM_Z06_MiningTunnel_A": {},
+    "Karamelle/Interiors/KM_Z06_MiningTunnel_B": {},
+
+    "Karamelle/Interiors/KM_Z07_CupcakeFactory": {},
+    "Karamelle/Interiors/KM_Z07_VanasVarieties": {},
+
+    "Karamelle/Interiors/KM_Z08_ColaLake": {},
+    "Karamelle/Interiors/KM_Z08_LoggingCampWahehouse": {},
+    "Karamelle/Interiors/KM_Z08_RosinasHouse": {},
+
+    "Karamelle/Interiors/KM_Z09_FarmersHouse": {},
+    "Karamelle/Interiors/KM_Z09_HotHouse": {},
+    "Karamelle/Interiors/KM_Z09_Silo": {},
+
+    "Karamelle/Interiors/KM_Z10_GobblertonLibrary": {},
+    "Karamelle/Interiors/KM_Z10_Gym": {},
+    "Karamelle/Interiors/KM_Z10_RosinasLab": {}
+  }
+}

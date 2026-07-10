@@ -1,0 +1,94 @@
+{
+  "zones": {
+    "Avalon/AV_Z00_Hub": {},
+    "Avalon/AV_Z01_AbbeyRoad": {},
+    "Avalon/AV_Z02_HighRoad": {},
+    "Avalon/AV_Z03_CaerLyon": {},
+    "Avalon/AV_Z04_TheWild": {},
+    "Avalon/AV_Z05_TheWyrd": {},
+    "Avalon/AV_Z06_DunDara": {},
+    "Avalon/AV_Z07_OuterYard": {},
+    "Avalon/AV_Z08_LakeShore": {},
+    "Avalon/AV_Z09_DeepWater": {},
+    "Avalon/AV_Z10_Catacombs": {},
+    "Avalon/AV_Z11_CrystalCaves": {},
+    "Avalon/AV_Z12_GhostAvalon": {},
+    "Avalon/AV_Z13_KeepOfGanelon": {},
+    "Avalon/AV_Z14_RestoredKeep": {},
+
+    "Avalon/Interiors/AV_MaestroEvent/AV_Z00_LandingZone": {},
+    "Avalon/Interiors/AV_MaestroEvent/AV_Z01_School": {},
+    "Avalon/Interiors/AV_MaestroEvent/AV_Z02_DrakesCottage": {},
+    "Avalon/Interiors/AV_MaestroEvent/AV_Z03_MalistairsHouse": {},
+    "Avalon/Interiors/AV_MaestroEvent/AV_Z04_TowerBottom": {},
+    "Avalon/Interiors/AV_MaestroEvent/AV_Z04_TowerBottom_B": {},
+    "Avalon/Interiors/AV_MaestroEvent/AZ_Z04_TowerBottom_C": {},
+    "Avalon/Interiors/AV_MaestroEvent/AV_Z05_TowerTop": {},
+    "Avalon/Interiors/AV_MaestroEvent/AZ_Z05_TowerTop_B": {},
+    "Avalon/Interiors/AV_MaestroEvent/AZ_Z06_ArtOfWar": {},
+
+    "Avalon/Interiors/AV_Z00_FairyCircle_Cave": {},
+
+    "Avalon/Interiors/AV_Z01_KnightsHall": {},
+    "Avalon/Interiors/AV_Z01_Library": {},
+
+    "Avalon/Interiors/AV_Z02_FireSpitter": {},
+    "Avalon/Interiors/AV_Z02_JabberwockLair": {},
+    "Avalon/Interiors/AV_Z02_TowerHarlequin": {},
+    "Avalon/Interiors/AV_Z02_TowerRedThorn": {},
+    "Avalon/Interiors/AV_Z02_Well": {},
+
+    "Avalon/Interiors/AV_Z03_Archive": {},
+    "Avalon/Interiors/AV_Z03_ArchnalHideout": {},
+    "Avalon/Interiors/AV_Z03_EstateAmber": {},
+    "Avalon/Interiors/AV_Z03_EstateLogres": {},
+    "Avalon/Interiors/AV_Z03_Froudling01": {},
+    "Avalon/Interiors/AV_Z03_Froudling02": {},
+    "Avalon/Interiors/AV_Z03_TowerBoss": {},
+    "Avalon/Interiors/AV_Z03_TowerDarkKnight": {},
+    "Avalon/Interiors/AV_Z03_TowerMalgrins": {},
+    "Avalon/Interiors/AV_Z03_TowerRuined": {},
+    "Avalon/Interiors/AV_Z03_WILD_C16": {},
+
+    "Avalon/Interiors/AV_Z04_Cave01": {},
+    "Avalon/Interiors/AV_Z04_Cave02": {},
+    "Avalon/Interiors/AV_Z04_FrozenLake": {},
+    "Avalon/Interiors/AV_Z04_TowerBlueDahlia": {},
+    "Avalon/Interiors/AV_Z04_TowerDreadKeep": {},
+    "Avalon/Interiors/AV_Z04_WhiteOwlTower": {},
+    "Avalon/Interiors/AV_Z04_WOwlGarden": {},
+
+    "Avalon/Interiors/AV_Z05_IndigoGiant": {},
+    "Avalon/Interiors/AV_Z05_LostAbbey": {},
+    "Avalon/Interiors/AV_Z05_TombNameless": {},
+    "Avalon/Interiors/AV_Z05_TowerChromatic": {},
+    "Avalon/Interiors/AV_Z05_TowerFroudling01": {},
+    "Avalon/Interiors/AV_Z05_TowerFroudling02": {},
+    "Avalon/Interiors/AV_Z05_TowerFroundling3": {},
+
+    "Avalon/Interiors/AV_Z06_Cave01": {},
+    "Avalon/Interiors/AV_Z06_Cave02": {},
+    "Avalon/Interiors/AV_Z06_TowerBelleRegard": {},
+
+    "Avalon/Interiors/AV_Z07_Library": {},
+    "Avalon/Interiors/AV_Z07_TowerBroken": {},
+    "Avalon/Interiors/AV_Z07_TowerOverlook": {},
+    "Avalon/Interiors/AV_Z07_TowerPrison": {},
+    "Avalon/Interiors/AV_Z07_TowerSworn": {},
+
+    "Avalon/Interiors/AV_Z08_BogWitch": {},
+    "Avalon/Interiors/AV_Z08_TowerDolorous": {},
+
+    "Avalon/Interiors/AV_Z09_Cave01": {},
+    "Avalon/Interiors/AV_Z09_Cave02": {},
+    "Avalon/Interiors/AV_Z09_Cave03": {},
+    "Avalon/Interiors/AV_Z09_Cave04": {},
+
+    "Avalon/Interiors/AV_Z10_CptnChamber": {},
+    "Avalon/Interiors/AV_Z10_TombOfArtorius_Ruined": {},
+
+    "Avalon/Interiors/AV_Z12_TombOfArtorius": {},
+
+    "Avalon/Interiors/AV_Z13_CrystalCave_Int": {}
+  }
+}

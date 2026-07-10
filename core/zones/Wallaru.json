@@ -1,0 +1,57 @@
+{
+  "zones": {
+    "Wallaru/WL_Z01_Hub": {},
+    "Wallaru/WL_Z02_Outback": {},
+    "Wallaru/WL_Z03_Kingsland": {},
+    "Wallaru/WL_Z04_TheDreaming": {},
+    "Wallaru/WL_Z05_Wobbegong_JT": {},
+    "Wallaru/WL_Z06_CollieRanch": {},
+    "Wallaru/WL_Z07_EucalyptusForest": {},
+    "Wallaru/WL_Z08_BillabongResort": {},
+
+    "Wallaru/Interiors/WL_Z01_I00_PrimeMinister": {},
+    "Wallaru/Interiors/WL_Z01_I01_Bank": {},
+    "Wallaru/Interiors/WL_Z01_I05_MonquistanEmbassy": {},
+    "Wallaru/Interiors/WL_Z01_I06_SupplyStore": {},
+    "Wallaru/Interiors/WL_Z01_I07_GroceryStore": {},
+    "Wallaru/Interiors/WL_Z01_I08_BoomerangDepot": {},
+    "Wallaru/Interiors/WL_Z01_I10_DundarasTunnel": {},
+
+    "Wallaru/Interiors/WL_Z02_I02_RebelMine": {},
+    "Wallaru/Interiors/WL_Z02_I03_CannonLedge": {},
+    "Wallaru/Interiors/WL_Z02_I05_RidgeCave": {},
+    "Wallaru/Interiors/WL_Z02_I07_OutbackRidge": {},
+    "Wallaru/Interiors/WL_Z02_I10_OutbackDungeon_Easy": {},
+
+    "Wallaru/Interiors/WL_Z03_I01_KangaGuruShrine": {},
+    "Wallaru/Interiors/WL_Z03_I02_WallabyCave": {},
+
+    "Wallaru/Interiors/WL_Z04_I02_JudgeVegDream": {},
+    "Wallaru/Interiors/WL_Z04_I04_FurryosasDream": {},
+    "Wallaru/Interiors/WL_Z04_I05_FreddiesDomain": {},
+
+    "Wallaru/Interiors/WL_Z05_DroverCave": {},
+    "Wallaru/Interiors/WL_Z05_I01_ColliesDen": {},
+    "Wallaru/Interiors/WL_Z05_I02_BunyipWarrens": {},
+    "Wallaru/Interiors/WL_Z05_I03_HostageCave": {},
+    "Wallaru/Interiors/WL_Z05_I08_WestClearing": {},
+    "Wallaru/Interiors/WL_Z05_I09_EastClearing": {},
+
+    "Wallaru/Interiors/WL_Z06_I01_CollieTunnel": {},
+    "Wallaru/Interiors/WL_Z06_I02_WestPasture": {},
+    "Wallaru/Interiors/WL_Z06_I03_JudgeJudisOffice": {},
+    "Wallaru/Interiors/WL_Z06_I04_DemolitionTunnels": {},
+    "Wallaru/Interiors/WL_Z06_I05_BarnPrison": {},
+    "Wallaru/Interiors/WL_Z06_I06_CollieHomestead": {},
+
+    "Wallaru/Interiors/WL_Z07_Clearing_01": {},
+    "Wallaru/Interiors/WL_Z07_Clearing_02": {},
+    "Wallaru/Interiors/WL_Z07_Clearing_03": {},
+    "Wallaru/Interiors/WL_Z07_Gatehouse_01": {},
+    "Wallaru/Interiors/WL_Z07_PinkLake": {},
+
+    "Wallaru/Interiors/WL_Z08_I01_SolidGoldLounge": {},
+    "Wallaru/Interiors/WL_Z08_I02_LagoonPipeline": {},
+    "Wallaru/Interiors/WL_Z08_I03_HotelRoom": {}
+  }
+}

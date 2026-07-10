@@ -1,0 +1,32 @@
+{
+  "zones": {
+    "Lemuria/LM_Z00_Hub": {},
+    "Lemuria/LM_Z01_WildLands": {},
+    "Lemuria/LM_Z02_UrsaiVillage": {},
+    "Lemuria/LM_Z03_NightForest": {},
+    "Lemuria/LM_Z06_SkyCity": {},
+    "Lemuria/LM_Z07_Heap": {},
+
+    "Lemuria/Interiors/LM_Z00_I07_HallofHeroesOuter": {},
+    "Lemuria/Interiors/LM_Z00_I08_HallofHeroesInner": {},
+
+    "Lemuria/Interiors/LM_Z02_UrsaiMonitoringStation": {},
+    "Lemuria/Interiors/LM_Z02_Volcano": {},
+    "Lemuria/Interiors/LM_Z02_VolcanoClimb": {},
+    "Lemuria/Interiors/LM_Z02_VolcanoTop": {},
+
+    "Lemuria/Interiors/LM_Z03_WendigoNest": {},
+
+    "Lemuria/Interiors/LM_Z06_Fortress": {},
+
+    "Lemuria/Interiors/LM_Z07_ChattyCafe": {},
+    "Lemuria/Interiors/LM_Z07_Diner": {},
+    "Lemuria/Interiors/LM_Z07_LionsMind": {},
+    "Lemuria/Interiors/LM_Z07_LionsOffice": {},
+    "Lemuria/Interiors/LM_Z07_LockUp": {},
+    "Lemuria/Interiors/LM_Z07_Precinct": {},
+    "Lemuria/Interiors/LM_Z07_TamarinCellar": {},
+    "Lemuria/Interiors/LM_Z07_TamarinHouse": {},
+    "Lemuria/Interiors/LM_Z07_Wellspring": {}
+  }
+}

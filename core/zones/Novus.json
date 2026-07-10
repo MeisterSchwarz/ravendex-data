@@ -1,0 +1,31 @@
+{
+  "zones": {
+    "Novus/NV_Z01_Conatus": {},
+    "Novus/NV_Z02_StoneOfHeaven": {},
+    "Novus/NV_Z03_PuertoNuovo_MQ": {},
+    "Novus/NV_Z03_PuertoNuovo_VA": {},
+    "Novus/NV_Z04_NewVicorgia": {},
+    "Novus/NV_Z05_LaVilleRose": {},
+    "Novus/NV_Z06_NucleusGallery": {},
+
+    "Novus/Interiors/NV_Z03_ContestedShard": {},
+    "Novus/Interiors/NV_Z03_FortressInt": {},
+    "Novus/Interiors/NV_Z03_SabotuerCave": {},
+    "Novus/Interiors/NV_Z03_Safehouse": {},
+
+    "Novus/Interiors/NV_Z04_I01_GeneralQuarters": {},
+    "Novus/Interiors/NV_Z04_I02_GovernorsMansion": {},
+    "Novus/Interiors/NV_Z04_I04_IrkPen": {},
+    "Novus/Interiors/NV_Z04_I06_Mine": {},
+    "Novus/Interiors/NV_Z04_I07_Ship": {},
+
+    "Novus/Interiors/NV_Z05_BasseSteele": {},
+    "Novus/Interiors/NV_Z05_CabalBase": {},
+    "Novus/Interiors/NV_Z05_MaxineOffice": {},
+    "Novus/Interiors/NV_Z05_NegotiationChamber": {},
+
+    "Novus/Interiors/NV_Z06_ManticoresMadness": {},
+    "Novus/Interiors/NV_Z06_ManticoresPlan": {},
+    "Novus/Interiors/NV_Z06_NucleusDuelingSpace": {}
+  }
+}

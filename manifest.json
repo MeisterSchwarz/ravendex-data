@@ -1,31 +1,9 @@
 {
   "schemaVersion": 1,
-  "dataVersion": "2026.07.1",
+  "dataVersion": "2026.07.10",
   "defaultLanguage": "de",
   "languages": ["de"],
   "files": {
-    "worlds": {
-      "core": "core/worlds.json",
-      "translations": {
-        "de": "i18n/de/worlds.json"
-      }
-    },
-    "zones": [
-      {
-        "id": "Aquila",
-        "core": "core/zones/Aquila.json",
-        "translations": {
-          "de": "i18n/de/zones/Aquila.json"
-        }
-      },
-      {
-        "id": "Krokotopia",
-        "core": "core/zones/Krokotopia.json",
-        "translations": {
-          "de": "i18n/de/zones/Krokotopia.json"
-        }
-      }
-    ],
     "enemies": [
       {
         "id": "Krokotopia",

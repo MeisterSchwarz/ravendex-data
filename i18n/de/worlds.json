@@ -11,9 +11,53 @@
   "MooShu": {
     "name": "MuHong"
   },
+  "DragonSpire": {
+    "name": "Drachenfels"
+  },
+  "Celestia": {
+    "name": "Celestia"
+  },
+  "Zafaria": {
+    "name": "Zafaria"
+  },
+  "Avalon": {
+    "name": "Avalon"
+  },
+  "Azteca": {
+    "name": "Azteka"
+  },
+  "Khrysalis": {
+    "name": "Khrysalis"
+  },
+  "Polaris": {
+    "name": "Polaris"
+  },
   "Arcanum": {
-    "name": "Arkanum",
-    "description": "Eine Nebenwelt mit den Dungeons Olymp, Atlantea und Tartarus."
+    "name": "Arkanum"
+  },
+  "Mirage": {
+    "name": "Mirage"
+  },
+  "Empyrea": {
+    "name": "Empyrea"
+  },
+  "Karamelle": {
+    "name": "Karamelle"
+  },
+  "Lemuria": {
+    "name": "Lemuria"
+  },
+  "Novus": {
+    "name": "Novus"
+  },
+  "Wallaru": {
+    "name": "Wallaru"
+  },
+  "Selenopolis": {
+    "name": "Selenopolis"
+  },
+  "Darkmoor": {
+    "name": "Düstermoor"
   },
   "Aquila": {
     "name": "Aquila",

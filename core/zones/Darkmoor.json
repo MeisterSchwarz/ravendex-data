@@ -1,0 +1,70 @@
+{
+  "zones": {
+    "Darkmoor/DM_Z00_OutsidersCamp": {},
+    "Darkmoor/DM_Z01_Graveholm": {},
+    "Darkmoor/DM_Z02_MortalPlain": {},
+    "Darkmoor/DM_Z03_HowlingLands": {},
+    "Darkmoor/DM_Z04_BlackLagoon": {},
+    "Darkmoor/DM_Z05_ScholomanceEntrance": {},
+
+    "Darkmoor/Interiors/DM_Z00I01_Fortune_A": {},
+
+    "Darkmoor/Interiors/DM_Z01I01_FangAndClawInn": {},
+    "Darkmoor/Interiors/DM_Z01I02_InnRoom": {},
+    "Darkmoor/Interiors/DM_Z01I03_EastonHouse": {},
+    "Darkmoor/Interiors/DM_Z01I04_GargoyleWatchtower": {},
+    "Darkmoor/Interiors/DM_Z01I05_BrokenBranchHovel": {},
+    "Darkmoor/Interiors/DM_Z01I06_EastonHouseDayEncounter": {},
+    "Darkmoor/Interiors/DM_Z01I07_Wereden": {},
+    "Darkmoor/Interiors/DM_Z01I08_SafehouseCourtyardDay_01": {},
+    "Darkmoor/Interiors/DM_Z01I08_SafehouseCourtyardDay_02": {},
+    "Darkmoor/Interiors/DM_Z01I08_SafehouseCourtyardDay_04": {},
+    "Darkmoor/Interiors/DM_Z01I09_Safehouse": {},
+    "Darkmoor/Interiors/DM_Z01I10_SafehouseCourtyardNight": {},
+    "Darkmoor/Interiors/DM_Z01I11_ParliamentOfNightThroneRoom": {},
+    "Darkmoor/Interiors/DM_Z01I12_DarkHallway": {},
+    "Darkmoor/Interiors/DM_Z01I13_SecretLab": {},
+
+    "Darkmoor/Interiors/DM_Z02_AscensionChapel": {},
+    "Darkmoor/Interiors/DM_Z02_Castle_A": {},
+    "Darkmoor/Interiors/DM_Z02_DeeperWoods_A": {},
+    "Darkmoor/Interiors/DM_Z02_LutherHouse": {},
+    "Darkmoor/Interiors/DM_Z02_MayorHouse_A": {},
+    "Darkmoor/Interiors/DM_Z02_SanguineHouse": {},
+    "Darkmoor/Interiors/DM_Z02_VictimHouse_A": {},
+    "Darkmoor/Interiors/DM_Z02_WoodedClearing_A": {},
+
+    "Darkmoor/Interiors/DM_Z03_Hideout": {},
+    "Darkmoor/Interiors/DM_Z03_HuntingGrounds": {},
+    "Darkmoor/Interiors/DM_Z03_OvergrownEstate": {},
+    "Darkmoor/Interiors/DM_Z03_WoodedClearing": {},
+
+    "Darkmoor/Interiors/DM_Z04101_Shrine": {},
+    "Darkmoor/Interiors/DM_Z04I03_DarkBog": {},
+    "Darkmoor/Interiors/DM_Z04I04_MusicRoom": {},
+    "Darkmoor/Interiors/DM_Z04I05_BogOfSwords": {},
+    "Darkmoor/Interiors/DM_Z04I06_BogOfCups": {},
+    "Darkmoor/Interiors/DM_Z04I07_ShadowSchool": {},
+    "Darkmoor/Interiors/DM_Z04I08_BogOfVengeance": {},
+    "Darkmoor/Interiors/DM_Z04I10_LiarsGrove": {},
+    "Darkmoor/Interiors/DM_Z04I11_Shack": {},
+    "Darkmoor/Interiors/DM_Z04I12_FirstBog": {},
+    "Darkmoor/Interiors/DM_Z04I16_Music2": {},
+    "Darkmoor/Interiors/DM_Z04I18_Music4": {},
+    "Darkmoor/Interiors/DM_Z04I20ScholoMusicRoom": {},
+    "Darkmoor/Interiors/DM_Z04I21_ShrineSideWindow": {},
+
+    "Darkmoor/Interiors/DM_Z05_HereticalAcademy": {},
+    "Darkmoor/Interiors/DM_Z05I02_Parlor": {},
+    "Darkmoor/Interiors/DM_Z05I03_HallOfDefilement": {},
+
+    "G14_DM/DM_Z01_CastleDarkmoor": {},
+    "G14_DM/DM_Z06_Bridge": {},
+    "G14_DM/DM_Z07_Graveyard": {},
+
+    "G14_DM/Interiors/DM_Z08_I01_MausoleumTop": {},
+    "G14_DM/Interiors/DM_Z08_I02_Mausoleum_Lower": {},
+    "G14_DM/Interiors/DM_Z08_I03_SkeletonKey2": {}
+  }
+}
+

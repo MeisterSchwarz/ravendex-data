@@ -19,14 +19,89 @@
     "order": 4,
     "type": "main"
   },
+  "DragonSpire": {
+    "image": "dragonspyre",
+    "order": 5,
+    "type": "main"
+  },
+  "Celestia": {
+    "image": "celestia",
+    "order": 6,
+    "type": "main"
+  },
+  "Zafaria": {
+    "image": "zafaria",
+    "order": 7,
+    "type": "main"
+  },
+  "Avalon": {
+    "image": "avalon",
+    "order": 8,
+    "type": "main"
+  },
+  "Azteca": {
+    "image": "azteca",
+    "order": 9,
+    "type": "main"
+  },
+  "Khrysalis": {
+    "image": "khrysalis",
+    "order": 10,
+    "type": "main"
+  },
+  "Polaris": {
+    "image": "polaris",
+    "order": 11,
+    "type": "main"
+  },
   "Arcanum": {
     "image": "arcanum",
     "order": 12,
     "type": "main"
   },
+  "Mirage": {
+    "image": "mirage",
+    "order": 13,
+    "type": "main"
+  },
+  "Empyrea": {
+    "image": "empyrea",
+    "order": 14,
+    "type": "main"
+  },
+  "Karamelle": {
+    "image": "karamelle",
+    "order": 15,
+    "type": "main"
+  },
+  "Lemuria": {
+    "image": "lemuria",
+    "order": 16,
+    "type": "main"
+  },
+  "Novus": {
+    "image": "novus",
+    "order": 17,
+    "type": "main"
+  },
+  "Wallaru": {
+    "image": "wallaru",
+    "order": 18,
+    "type": "main"
+  },
+  "Selenopolis": {
+    "image": "selenopolis",
+    "order": 19,
+    "type": "main"
+  },
+  "Darkmoor": {
+    "image": "darkmoor",
+    "order": 20,
+    "type": "main"
+  },
   "Aquila": {
     "image": "aquila",
-    "order": 20,
+    "order": 50,
     "type": "side"
   },
   "Housing": {
