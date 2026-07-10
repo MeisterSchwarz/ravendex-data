@@ -4,6 +4,16 @@
       "zones": [
         "Krokotopia/KT_Pyramid/KT_PalaceOfFire"
       ]
+    },
+    "KrokPharaoh-FireBird-L02": {
+      "zones": [
+        "Krokotopia/KT_Pyramid/Interiors/KT_Hall_T1"
+      ]
+    },
+    "KrokPharaoh-FireHair-KTBoss-L03": {
+      "zones": [
+        "Krokotopia/KT_Pyramid/Interiors/KT_Hall_T1"
+      ]
     }
   }
 }
