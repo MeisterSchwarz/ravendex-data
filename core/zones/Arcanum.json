@@ -1,0 +1,39 @@
+{
+  "zones": {
+    "Arcanum/AR_Z01_Hub": {},
+    "Arcanum/AR_Z02_LowerDecks": {},
+
+    "Arcanum/Interiors/AR_Dunes": {},
+
+    "Arcanum/Interiors/AR_Z01_AstralPlane": {},
+    "Arcanum/Interiors/AR_ShadowTricksterLair_01": {},
+    "Arcanum/Interiors/AR_Z01_ArbitersArena": {},
+    "Arcanum/Interiors/AR_Z01_ArbitersArena02": {},
+    "Arcanum/Interiors/AR_Z01_CursedRepository": {},
+    "Arcanum/Interiors/AR_Z01_DeadArchive": {},
+    "Arcanum/Interiors/AR_Z01_DeathSchool": {},
+    "Arcanum/Interiors/AR_Z01_DrockDock_NoShip": {},
+    "Arcanum/Interiors/AR_Z01_I01_DryDock": {},
+    "Arcanum/Interiors/AR_Z01_FireSchool": {},
+    "Arcanum/Interiors/AR_Z01_IceSchool": {},
+    "Arcanum/Interiors/AR_Z01_Infirmary": {},
+    "Arcanum/Interiors/AR_Z01_LifeSchool": {},
+    "Arcanum/Interiors/AR_Z01_LifeSupport": {},
+    "Arcanum/Interiors/AR_Z01_LiminalSpace": {},
+    "Arcanum/Interiors/AR_Z01_MusicologyOffice": {},
+    "Arcanum/Interiors/AR_Z01_MythSchool": {},
+    "Arcanum/Interiors/AR_Z01_RecoveryRoom": {},
+    "Arcanum/Interiors/AR_Z01_TheBridge": {},
+    "Arcanum/Interiors/AR_Z01_SchismReadingRoom": {},
+    "Arcanum/Interiors/AR_Z01_ShadowSchool": {},
+    "Arcanum/Interiors/AR_Z01_StormSchool": {},
+
+    "Arcanum/Interiors/AR_Z02_EnergyCorridor": {},
+    "Arcanum/Interiors/AR_Z02_LumiHostageRoom": {},
+    "Arcanum/Interiors/AR_Z02_PowerCore": {},
+    "Arcanum/Interiors/AR_Z02_WindgineRoom": {},
+
+    "Arcanum/Interiors/AR_Z03_ArkCrashCinematic": {},
+    "Arcanum/Interiors/AR_Z03_ArkShip": {}
+  }
+}

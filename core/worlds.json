@@ -14,6 +14,16 @@
     "order": 3,
     "type": "main"
   },
+  "MooShu": {
+    "image": "mooshu",
+    "order": 4,
+    "type": "main"
+  },
+  "Arcanum": {
+    "image": "arcanum",
+    "order": 12,
+    "type": "main"
+  },
   "Aquila": {
     "image": "aquila",
     "order": 20,

@@ -1,0 +1,42 @@
+{
+  "zones": {
+    "Krokotopia/KT_Hub": {},
+    "Krokotopia/KT_Hub_Crypt": {},
+    "Krokotopia/KT_Hub_Sphinx": {},
+    "Krokotopia/KT_WorldTeleporter": {},
+
+    "Krokotopia/Interiors/KT_HallofDoors": {},
+    "Krokotopia/Interiors/KT_Library": {},
+    "Krokotopia/Interiors/KT_School": {},
+    "Krokotopia/Interiors/KT_Shop01": {},
+    "Krokotopia/Interiors/KT_Shop02": {},
+    "Krokotopia/Interiors/KT_Shop03": {},
+    "Krokotopia/Interiors/KT_Shop04": {},
+    "Krokotopia/Interiors/KT_Shop05": {},
+
+    "Krokotopia/KT_Krokosphinx/KT_Arena": {},
+    "Krokotopia/KT_Krokosphinx/KT_EntranceHall": {},
+    "Krokotopia/KT_Krokosphinx/KT_Retreat": {},
+
+    "Krokotopia/KT_Krokosphinx/Interiors/KT_Arena_T3": {},
+    "Krokotopia/KT_Krokosphinx/Interiors/KT_Arena_T5": {},
+    "Krokotopia/KT_Krokosphinx/Interiors/KT_Arena_T6": {},
+    "Krokotopia/KT_Krokosphinx/Interiors/KT_Arena_T7": {},
+    "Krokotopia/KT_Krokosphinx/Interiors/KT_Arena_T8": {},
+
+    "Krokotopia/KT_Pyramid/KT_AltarOfKings": {},
+    "Krokotopia/KT_Pyramid/KT_Chamber": {},
+    "Krokotopia/KT_Pyramid/KT_Hall": {},
+    "Krokotopia/KT_Pyramid/KT_PalaceOfFire": {},
+
+    "Krokotopia/KT_Pyramid/Interiors/KT_Chamber_T1": {},
+    "Krokotopia/KT_Pyramid/Interiors/KT_Chamber_T2": {},
+    "Krokotopia/KT_Pyramid/Interiors/KT_Chamber_T3": {},
+    "Krokotopia/KT_Pyramid/Interiors/KT_Chamber_T4": {},
+    "Krokotopia/KT_Pyramid/Interiors/KT_Chamber_T5": {},
+    "Krokotopia/KT_Pyramid/Interiors/KT_Hall_T1": {},
+
+    "Krokotopia/KT_Tomb/KT_DjeseritTomb": {},
+    "Krokotopia/KT_Tomb/KT_WellOfSpirits": {}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "zones": {
+    "Marleybone/MB_Hub": {},
+    "Marleybone/MB_PreAZ_HalleysTower": {},
+
+    "Marleybone/Interiors/MB_Event_Maestro/MB_Z00_TelepgraphBox": {},
+    "Marleybone/Interiors/MB_Event_Maestro/MB_Z01_Museum": {},
+    "Marleybone/Interiors/MB_Event_Maestro/MB_Z02_Prison": {},
+    "Marleybone/Interiors/MB_Event_Maestro/MB_Z03_MeowiartysLair": {},
+    "MB_Event_Maestro/MB_Z04_ClandestineTower": {},
+    "Marleybone/Interiors/MB_Event_Maestro/MB_Z05_PreTowerFight": {},
+
+    "Marleybone/Interiors/MB_PostOffice1": {},
+    "Marleybone/Interiors/MB_PreAZ_HalleysTowerInt": {},
+    "Marleybone/Interiors/MB_Pubs": {},
+    "Marleybone/Interiors/MB_ScotlandYard": {},
+    "Marleybone/Interiors/MB_SecretClub": {},
+    "Marleybone/Interiors/MB_Shop_Decks": {},
+    "Marleybone/Interiors/MB_Shop_House": {},
+    "Marleybone/Interiors/MB_Shop_Rings": {},
+    "Marleybone/Interiors/MB_Shop_Robes": {},
+    "Marleybone/Interiors/MB_Shop_Shoes": {},
+    "Marleybone/Interiors/MB_WolfminsterAbbey": {},
+    "Marleybone/Interiors/MB_QuatermaneTower": {},
+
+    "Marleybone/MB_BigBen/MB_CounterweightWest": {},
+    "Marleybone/MB_BigBen/MB_Museum": {},
+
+    "Marleybone/MB_ScotlandYard/MB_Prison": {},
+    "Marleybone/MB_ScotlandYard/MB_Roof": {},
+
+    "Marleybone/MB_ScotlandYard/Interiors/MB_Prison_T4": {},
+    "Marleybone/MB_ScotlandYard/Interiors/MB_Prison_T5": {},
+
+    "Marleybone/MB_Station/MB_FlightToHydePark": {},
+    "Marleybone/MB_Station/MB_Ironworks": {},
+    "Marleybone/MB_Station/MB_Station_Hub": {}
+  }
+}
+

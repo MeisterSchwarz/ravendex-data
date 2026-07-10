@@ -1,0 +1,35 @@
+{
+  "zones": {
+    "MooShu/MS_Hub": {},
+    "MooShu/MS_Catmandu": {},
+
+    "MooShu/Interiors/MS_CAT_Monastery": {},
+    "MooShu/Interiors/MS_Emperor_Palace": {},
+    "MooShu/Interiors/MS_GardenDojo_T1": {},
+
+    "MooShu/Interiors/MS_MaestroEvent/MS_Z00_LandingZone": {},
+    "MooShu/Interiors/MS_MaestroEvent/MS_Z01_GammaTower": {},
+    "MooShu/Interiors/MS_MaestroEvent/MS_Z02_SpiritSchool": {},
+    "MooShu/Interiors/MS_MaestroEvent/MS_Z03_DimwoodVale": {},
+    "MooShu/Interiors/MS_MaestroEvent/MS_Z04_CornuHouse": {},
+    "MooShu/Interiors/MS_MaestroEvent/MS_Z05_DimwoodShack": {},
+    "MooShu/Interiors/MS_MaestroEvent/MS_Z06_DeathTower01": {},
+    "MooShu/Interiors/MS_MaestroEvent/MS_Z06_DeathTower02": {},
+
+    "MooShu/Interiors/MS_RockDojoT2": {},
+    "MooShu/Interiors/MS_ShopJewelry": {},
+    "MooShu/Interiors/MS_Teleport_Chamber": {},
+    "MooShu/Interiors/MS_WaterDojot1_Common": {},
+
+    "MooShu/MS_Death/MS_Death_Hub_RuinedTemple": {},
+
+    "MooShu/MS_Plague/MS_Plague_Hub_FarmVillage": {},
+    "MooShu/MS_Plague/MS_Plague_Zone1_WaterfallCave": {},
+
+    "MooShu/MS_Plague/Interiors/MS_Plague_SkeletonKey_T1": {},
+    "MooShu/MS_Plague/Interiors/MS_Plague_SkeletonKey_T2": {},
+
+    "MooShu/MS_War/MS_War_BattlefieldA": {},
+    "MooShu/MS_War/Interiors/MS_War2_T2": {}
+  }
+}
