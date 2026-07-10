@@ -1,6 +1,17 @@
 {
   "drops": {
+    "Cyclops-Red-L12": [
+      "ht_cowl-of-summertime"
+    ],
+    "KrokPharaoh-FireBird-L02": [
+      "bt_glacial_slippers"
+    ],
+    "KrokPharaoh-FireHair-KTBoss-L03": [
+      "bt_glacial_slippers",
+      "ht_helm-of-ingenuity"
+    ],
     "KrokPharaoh-FirePony-L02": [
+      "bt_glacial_slippers",
       "rb_krokotopian-kaftan",
 
       "rg_leather-straps",

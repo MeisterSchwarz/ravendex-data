@@ -1,6 +1,6 @@
 {
   "enemies": {
-    "KrokPharaoh-FirePony-L02": {
+    "Cyclops-Red-L12": {
       "zones": [
         "Krokotopia/KT_Pyramid/KT_PalaceOfFire"
       ]
@@ -13,6 +13,11 @@
     "KrokPharaoh-FireHair-KTBoss-L03": {
       "zones": [
         "Krokotopia/KT_Pyramid/Interiors/KT_Hall_T1"
+      ]
+    },
+    "KrokPharaoh-FirePony-L02": {
+      "zones": [
+        "Krokotopia/KT_Pyramid/KT_PalaceOfFire"
       ]
     }
   }
