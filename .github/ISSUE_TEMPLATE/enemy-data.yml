@@ -1,0 +1,49 @@
+name: Gegnerdaten einreichen
+description: Zonen und Übersetzungen als JSON-Dateien einreichen
+title: "[Enemy data]: "
+labels:
+  - data
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für deinen Beitrag. Bitte hänge die automatisch erzeugten
+        JSON-Dateien unten per Drag-and-drop an.
+
+  - type: input
+    id: world
+    attributes:
+      label: Welt
+      description: Zum Beispiel WizardCity
+      placeholder: WizardCity
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Sprache
+      description: Sprachcode, zum Beispiel de
+      placeholder: de
+    validations:
+      required: true
+
+  - type: textarea
+    id: attachments
+    attributes:
+      label: JSON-Dateien
+      description: |
+        Ziehe die Dateien in dieses Feld:
+        enemy_zones__<Welt>__<Sprache>.json
+        enemy_names__<Welt>__<Sprache>.json
+      placeholder: Dateien hier hineinziehen …
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Bestätigung
+      options:
+        - label: Die Dateien wurden automatisch erzeugt und nicht manuell umbenannt.
+          required: true
