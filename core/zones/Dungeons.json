@@ -1,15 +1,18 @@
 {
-    "G14_DM/DM_Z01_CastleDarkmoor": {},
-    "G14_DM/DM_Z06_Bridge": {},
-    "G14_DM/DM_Z07_Graveyard": {},
-    "G14_DM/Interiors/DM_Z08_I01_MausoleumTop": {},
-    "G14_DM/Interiors/DM_Z08_I02_Mausoleum_Lower": {},
-    "G14_DM/Interiors/DM_Z08_I03_SkeletonKey2": {},
+    "zones": {
+        "G14_DM/DM_Z01_CastleDarkmoor": {},
+        "G14_DM/DM_Z06_Bridge": {},
+        "G14_DM/DM_Z07_Graveyard": {},
+        "G14_DM/Interiors/DM_Z08_I01_MausoleumTop": {},
+        "G14_DM/Interiors/DM_Z08_I02_Mausoleum_Lower": {},
+        "G14_DM/Interiors/DM_Z08_I03_SkeletonKey2": {},
 
-    "G14_HS/HS_Z01_ZigazagUpper": {},
-    "G14_SB/SB_Z01_KimbaalungVillage": {},
-    "G14_SB/SB_Z02_PagodaRoom01": {},
-    "G14_SB/SB_Z03_PagodaRoom02": {},
-    "G14_SB/SB_Z04_PagodaRoom03": {}
+        "G14_HS/HS_Z01_ZigazagUpper": {},
+        "G14_SB/SB_Z01_KimbaalungVillage": {},
+        "G14_SB/SB_Z02_PagodaRoom01": {},
+        "G14_SB/SB_Z03_PagodaRoom02": {},
+        "G14_SB/SB_Z04_PagodaRoom03": {}
+    }
+
 
 }

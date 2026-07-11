@@ -1,6 +1,9 @@
 {
-  "WizardCity/WC_Streets/Interiors/WC_Catacombs_RealityEdge": {},
-  "WizardCity/WC_Streets/Interiors/WC_Catacombs_ViggorsTomb": {},
-  "WizardCity/WC_Streets/WC_Catacombs": {},
-  "WizardCity/WC_Streets/WC_Catacombs_B": {}
+  "zones": {
+    "WizardCity/WC_Streets/Interiors/WC_Catacombs_RealityEdge": {},
+    "WizardCity/WC_Streets/Interiors/WC_Catacombs_ViggorsTomb": {},
+    "WizardCity/WC_Streets/WC_Catacombs": {},
+    "WizardCity/WC_Streets/WC_Catacombs_B": {}
+  }
+
 }
