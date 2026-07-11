@@ -1,0 +1,34 @@
+{
+  "enemies": {
+    "Banshee-Red-L12": {
+      "zones": [
+        "WizardCity/WC_Streets/WC_Triton"
+      ]
+    },
+    "Ghoul-Purple-L02": {
+      "zones": [
+        "WizardCity/WC_Streets/WC_Triton"
+      ]
+    },
+    "Scarecrow-WCBoss-L03": {
+      "zones": [
+        "WizardCity/WC_Streets/Interiors/WC_Triton_T1"
+      ]
+    },
+    "Skeleton-Gold-WCBoss-L03": {
+      "zones": [
+        "WizardCity/WC_Streets/Interiors/WC_Triton_T2"
+      ]
+    },
+    "WC-TR-Banshee-Red-L12": {
+      "zones": [
+        "WizardCity/WC_Streets/Interiors/WC_Triton_T2"
+      ]
+    },
+    "WC-TR-Ghoul-Purple-L02": {
+      "zones": [
+        "WizardCity/WC_Streets/Interiors/WC_Triton_T1"
+      ]
+    }
+  }
+}
