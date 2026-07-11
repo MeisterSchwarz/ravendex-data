@@ -94,5 +94,31 @@
   "Empyrea/Interiors/EM_Z10_1stAeroDwarfHouse": ["Aerohafen", "1. Aerozwerghaus"],
   "Empyrea/Interiors/EM_Z10_2ndAeroDwarfHouse": ["Aerohafen", "2. Aerozwerghaus"],
   "Empyrea/Interiors/EM_Z10_3rdAeroDwarfHouse": ["Aerohafen", "3. Aerozwerghaus"],
-  "Empyrea/Interiors/EM_Z10_FieldPartyCrash": ["Aerohafen", "Absturzstelle"]
+  "Empyrea/Interiors/EM_Z10_FieldPartyCrash": ["Aerohafen", "Absturzstelle"],
+
+  "Empyrea/Interiors/EM_Z12_I09_Clearing_C": ["Mandalla", "Lichtung"],
+  "Empyrea/Interiors/EM_Z12_AshenCaves": ["Mandalla", "Wachsamer Sargun"],
+  "Empyrea/Interiors/EM_Z12_DyingGlade": ["Mandalla", "Todesameise"],
+  "Empyrea/Interiors/EM_Z12_DyingJungle": ["Mandalla", "Sterbender Dschungel"],
+
+  "Empyrea/Interiors/Em_Z13_PossessedShrine": ["Dorf Samsara", "Besessener Schrein"],
+
+  "Empyrea/Interiors/EM_Z14_CaveRefuge": ["Chaosdschungel", "Zuflucht"],
+
+  "Empyrea/Interiors/EM_Z15_DreamLife": ["Träumerei", "Der Schulleiter"],
+  "Empyrea/Interiors/EM_Z15_DreamRavenwood": ["Träumerei", "Rabenhain"],
+  "Empyrea/Interiors/EM_Z15_DreamShrine": ["Träumerei", "Traumschrein"],
+  "Empyrea/Interiors/EM_Z15_DreamBabaYaga": ["Träumerei", "Traumwelt (Polaris)"],
+  "Empyrea/Interiors/EM_Z15_DreamHive": ["Träumerei", "Traumwelt"],
+  "Empyrea/Interiors/EM_Z15_NightmareDS": ["Träumerei", "Alptraum (2/3)"],
+  "Empyrea/Interiors/EM_Z15_NightmareFinale": ["Träumerei", "Traum-Belloq"],
+  "Empyrea/Interiors/EM_Z15_NightmareKrok": ["Träumerei", "Alptraum (3/3 - Rätselraum)"],
+  "Empyrea/Interiors/EM_Z15_NightmareRealm": ["Träumerei", "Alptraum (1/3)"],
+
+  "Empyrea/Interiors/EM_Z16_I01_AstralGrove": ["Finsterhain", "Wachsamer Sargun"],
+  "Empyrea/Interiors/EM_Z16_I02_ElementalGrove": ["Finsterhain", "Arachna-Meistermagus"],
+  "Empyrea/Interiors/EM_Z16_I03_SpiritualGrove": ["Finsterhain", "Der Skorpion & Die Ratte"],
+  "Empyrea/Interiors/EM_Z16_I04_StormTitan": ["Finsterhain", "Titanendreizack"],
+  "Empyrea/Interiors/EM_Z16_I05_BrokenBough_A": ["Finsterhain", "Äthyr-Titan"],
+  "Empyrea/Interiors/EM_Z16_I06_BrokenBough_B": ["Finsterhain", "Äthyr-Titan"]
 }

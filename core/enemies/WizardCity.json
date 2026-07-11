@@ -1,35 +1,24 @@
 {
+  "zones": [
+    "WizardCity/WC_Streets/Interiors/WC_Cyclops_T1",
+    "WizardCity/WC_Streets/Interiors/WC_Cyclops_T2",
+    "WizardCity/WC_Streets/Interiors/WC_Unicorn_T1",
+    "WizardCity/WC_Streets/Interiors/WC_Unicorn_T2",
+    "WizardCity/WC_Streets/WC_Cyclops",
+    "WizardCity/WC_Streets/WC_DarkCave",
+    "WizardCity/WC_Streets/WC_Triton"
+  ],
   "enemies": {
-    "Cyclops-Blue-L02": {
-      "zones": [
-        "WizardCity/WC_Streets/WC_Cyclops"
-      ]
-    },
-    "Ghost-Blue-L01": {
-      "zones": [
-        "WizardCity/WC_Streets/WC_Unicorn"
-      ]
-    },
-    "Ghost-Green-WCBoss-L02": {
-      "zones": [
-        "WizardCity/WC_Streets/Interiors/WC_Unicorn_T1"
-      ]
-    },
-    "Skeleton-Pirate-L01": {
-      "zones": [
-        "WizardCity/WC_Streets/WC_Unicorn"
-      ]
-    },
-    "Skeleton-Silver-WCBoss-L01": {
-      "zones": [
-        "WizardCity/WC_Streets/Interiors/WC_Unicorn_T2"
-      ]
-    },
-    "Troll-Green-L01": {
-      "zones": [
-        "WizardCity/WC_Streets/WC_Cyclops"
-      ]
-    }
+    "Cyclops-Blue-L02": { "zones": [1] },
+    "Cyclops-BlueHelmet-WCBoss-L03": { "zones": [0] },
+    "Cyclops-Red-L02": { "zones": [0, 4] },
+    "Cyclops-RedHelmet-WCBoss-L03": { "zones": [1] },
+    "Ghost-Blue-L02-B": { "zones": [5] },
+    "Ghost-Green-WCBoss-L02": { "zones": [2] },
+    "Skeleton-Silver-WCBoss-L01": { "zones": [3] },
+    "Troll-Green-L01": { "zones": [4] },
+    "WC-Eel-Blue-L02": { "zones": [6] },
+    "WC-UW-Skeleton-Pirate-L01": { "zones": [2] },
+    "WC-UW-Sprite-Dark-L01": { "zones": [3] }
   }
 }
-
