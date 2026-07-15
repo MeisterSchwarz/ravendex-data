@@ -1,21 +1,15 @@
 {
-  "drops": {
-    "Cyclops-Blue-L02": [
-        "rg_leather-straps"
-    ],
-    "Ghost-Blue-L01": [
-    ],
-    "Ghost-Green-WCBoss-L02": [
-    ],
-    "Skeleton-Pirate-L01": [
-    ],
-    "Skeleton-Silver-WCBoss-L01": [
-    ],
-    "Troll-Green-L01": [
-        "bt_roughspun-shoes",
-
-        "tc_troll"
-      ]
-    }
+  "drops": [
+    "bt_roughspun-shoes",
+    "rg_leather-straps",
+    "tc_troll"
+  ],
+  "enemies": {
+    "Cyclops-Blue-L02": { "drops": [1] },
+    "Ghost-Blue-L01": { "drops": [] },
+    "Ghost-Green-WCBoss-L02": { "drops": [] },
+    "Skeleton-Pirate-L01": { "drops": [] },
+    "Skeleton-Silver-WCBoss-L01": { "drops": [] },
+    "Troll-Green-L01": { "drops": [0, 2] }
+  }
 }
-

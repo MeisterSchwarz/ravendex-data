@@ -1,30 +1,19 @@
 {
-  "drops": {
-    "Cyclops-Red-L12": [
-      "at_dagger-of-talent",
-
-      "bt_glacial-slippers",
-
-      "ht_cowl-of-summertime",
-
-      "sn_nettle-root"
-    ],
-    "KrokPharaoh-FireBird-L02": [
-      "bt_glacial-slippers"
-    ],
-    "KrokPharaoh-FireHair-KTBoss-L03": [
-      "bt_glacial-slippers",
-
-      "ht_helm-of-ingenuity"
-    ],
-    "KrokPharaoh-FirePony-L02": [
-      "bt_glacial-slippers",
-      
-      "rb_krokotopian-kaftan",
-
-      "rg_leather-straps",
-      "rg_pyrite",
-      "rg_deep-mushroom"
-    ]
+  "drops": [
+    "at_dagger-of-talent",
+    "bt_glacial-slippers",
+    "ht_cowl-of-summertime",
+    "ht_helm-of-ingenuity",
+    "rb_krokotopian-kaftan",
+    "rg_deep-mushroom",
+    "rg_leather-straps",
+    "rg_nettle-root",
+    "rg_pyrite"
+  ],
+  "enemies": {
+    "Cyclops-Red-L12": { "drops": [0, 1, 2, 7] },
+    "KrokPharaoh-FireBird-L02": { "drops": [1] },
+    "KrokPharaoh-FireHair-KTBoss-L03": { "drops": [1, 3] },
+    "KrokPharaoh-FirePony-L02": { "drops": [1, 4, 5, 6, 8] }
   }
 }

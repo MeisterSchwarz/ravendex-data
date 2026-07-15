@@ -15,6 +15,8 @@
   "WizardCity/Interiors/WC_Headmaster_Tower": ["Stadtmitte", "Gammas Turmzimmer"],
   "WizardCity/Interiors/WC_Headmistress_House": ["Stadtmitte", "Haus des Schulleiters"],
   "WizardCity/Interiors/WC_Housing_Dorm_Interior": ["Rabenhain", "Schlaftrakt"],
+  "WizardCity/Interiors/WC_Krampus_LandingZone": "Festliche Halle",
+  "WizardCity/Interiors/WC_Krampus_Outside_Gold": "Krampusgarten",
   "WizardCity/Interiors/WC_Library": "Die Bibliothek",
   "WizardCity/Interiors/WC_Park_Petshop": ["Platz der Tiere", "Haustierladen"],
   "WizardCity/Interiors/WC_Park_Snackshop": ["Platz der Tiere", "Futterladen"],
