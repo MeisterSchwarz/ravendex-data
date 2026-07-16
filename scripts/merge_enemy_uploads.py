@@ -8,10 +8,11 @@ from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
-contribute = ROOT / "contribute"
+CONTRIBUTE_DIR = ROOT / "contribute"
+MANIFEST_PATH = ROOT / "manifest.json"
 
 UPLOAD_PATTERN = re.compile(
-    r"^enemy_(zones|names)__([A-Za-z0-9_-]+)__([A-Za-z0-9_-]+)\.json$"
+    r"^enemy_names__([A-Za-z0-9_-]+)__([A-Za-z0-9_-]+)\.json$"
 )
 
 
@@ -26,179 +27,230 @@ def read_json(path: Path) -> Any:
         ) from exc
 
 
-def write_translation_json(path: Path, data: dict[str, str]) -> None:
+def write_json(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    sorted_data = dict(sorted(data.items(), key=lambda item: item[0].casefold()))
 
     with path.open("w", encoding="utf-8", newline="\n") as file:
-        json.dump(sorted_data, file, ensure_ascii=False, indent=2)
+        json.dump(
+            data,
+            file,
+            ensure_ascii=False,
+            indent=2,
+        )
         file.write("\n")
 
 
-def write_zone_json(
-    path: Path,
-    zones: list[str],
-    enemies: dict[str, set[str]],
-) -> None:
-    """Schreibt kompakte Enemy-Zeilen, aber eine gut lesbare Zonenliste."""
-    path.parent.mkdir(parents=True, exist_ok=True)
+def load_supported_languages() -> set[str]:
+    manifest = read_json(MANIFEST_PATH)
 
-    zone_to_index = {zone: index for index, zone in enumerate(zones)}
-    sorted_enemies = sorted(enemies.items(), key=lambda item: item[0].casefold())
-
-    lines: list[str] = ["{", '  "zones": [']
-
-    for index, zone in enumerate(zones):
-        comma = "," if index < len(zones) - 1 else ""
-        lines.append(f"    {json.dumps(zone, ensure_ascii=False)}{comma}")
-
-    lines.extend(["  ],", '  "enemies": {'])
-
-    for index, (enemy_id, enemy_zones) in enumerate(sorted_enemies):
-        zone_indexes = sorted(zone_to_index[zone] for zone in enemy_zones)
-        comma = "," if index < len(sorted_enemies) - 1 else ""
-        enemy_json = json.dumps(enemy_id, ensure_ascii=False)
-        indexes_json = json.dumps(zone_indexes, ensure_ascii=False)
-        lines.append(f'    {enemy_json}: {{ "zones": {indexes_json} }}{comma}')
-
-    lines.extend(["  }", "}"])
-
-    path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
-
-
-def load_existing_zone_data(path: Path) -> tuple[dict[str, set[str]], set[str]]:
-    if not path.exists():
-        return {}, set()
-
-    data = read_json(path)
-    if not isinstance(data, dict):
-        raise ValueError(f"{path.relative_to(ROOT)} muss ein JSON-Objekt sein.")
-
-    zones = data.get("zones")
-    enemies = data.get("enemies")
-
-    if not isinstance(zones, list) or not all(isinstance(zone, str) for zone in zones):
+    if not isinstance(manifest, dict):
         raise ValueError(
-            f"{path.relative_to(ROOT)}: 'zones' muss eine Liste aus Strings sein."
-        )
-    if len(zones) != len(set(zones)):
-        raise ValueError(f"{path.relative_to(ROOT)} enthält doppelte globale Zonen.")
-    if not isinstance(enemies, dict):
-        raise ValueError(
-            f"{path.relative_to(ROOT)}: 'enemies' muss ein JSON-Objekt sein."
+            "manifest.json muss ein JSON-Objekt sein."
         )
 
-    result: dict[str, set[str]] = {}
+    languages = manifest.get("languages")
 
-    for enemy_id, enemy_data in enemies.items():
-        if not isinstance(enemy_id, str) or not isinstance(enemy_data, dict):
-            raise ValueError(
-                f"{path.relative_to(ROOT)} enthält einen ungültigen Enemy-Eintrag."
-            )
-
-        indexes = enemy_data.get("zones")
-        if not isinstance(indexes, list) or not all(
-            isinstance(index, int) and not isinstance(index, bool)
-            for index in indexes
-        ):
-            raise ValueError(
-                f"{path.relative_to(ROOT)}: Zonen von {enemy_id!r} "
-                "müssen ganzzahlige Indizes sein."
-            )
-
-        resolved: set[str] = set()
-        for index in indexes:
-            if index < 0 or index >= len(zones):
-                raise ValueError(
-                    f"{path.relative_to(ROOT)}: {enemy_id!r} verweist "
-                    f"auf den ungültigen Zonenindex {index}."
-                )
-            resolved.add(zones[index])
-
-        result[enemy_id] = resolved
-
-    return result, set(zones)
-
-
-def merge_zone_upload(upload_path: Path, world: str) -> None:
-    target = ROOT / "core" / "enemies" / f"{world}.json"
-    upload = read_json(upload_path)
-
-    if not isinstance(upload, dict) or not isinstance(upload.get("enemies"), dict):
-        raise ValueError(
-            f"{upload_path.name}: Erwartet wird "
-            '{"enemies": {"Enemy-ID": {"zones": ["Zonenpfad"]}}}.'
-        )
-
-    merged, known_zones = load_existing_zone_data(target)
-
-    for enemy_id, enemy_data in upload["enemies"].items():
-        if not isinstance(enemy_id, str) or not enemy_id:
-            raise ValueError(f"{upload_path.name}: Ungültige Enemy-ID.")
-        if not isinstance(enemy_data, dict):
-            raise ValueError(
-                f"{upload_path.name}: Daten für {enemy_id!r} müssen ein Objekt sein."
-            )
-
-        uploaded_zones = enemy_data.get("zones")
-        if not isinstance(uploaded_zones, list) or not all(
-            isinstance(zone, str) and zone for zone in uploaded_zones
-        ):
-            raise ValueError(
-                f"{upload_path.name}: Zonen für {enemy_id!r} "
-                "müssen eine Liste aus nicht leeren Strings sein."
-            )
-
-        # Bestehende und neu hochgeladene Zonen werden vereinigt.
-        merged.setdefault(enemy_id, set()).update(uploaded_zones)
-        known_zones.update(uploaded_zones)
-
-    # Auch vorhandene, aktuell noch nicht referenzierte Zonen bleiben erhalten.
-    all_zones = sorted(known_zones, key=str.casefold)
-    write_zone_json(target, all_zones, merged)
-
-
-def merge_name_upload(upload_path: Path, world: str, language: str) -> None:
-    target = ROOT / "i18n" / language / "enemies" / f"{world}.json"
-    upload = read_json(upload_path)
-
-    if not isinstance(upload, dict) or not all(
-        isinstance(enemy_id, str)
-        and enemy_id
-        and isinstance(name, str)
-        and name
-        for enemy_id, name in upload.items()
+    if not isinstance(languages, list) or not all(
+        isinstance(language, str) and language.strip()
+        for language in languages
     ):
         raise ValueError(
-            f"{upload_path.name}: Erwartet wird "
-            '{"Enemy-ID": "Übersetzter Name"}.'
+            "manifest.json: 'languages' muss eine Liste "
+            "aus nicht leeren Strings sein."
         )
 
-    existing: dict[str, str] = {}
-    if target.exists():
-        loaded = read_json(target)
-        if not isinstance(loaded, dict) or not all(
-            isinstance(enemy_id, str) and isinstance(name, str)
-            for enemy_id, name in loaded.items()
-        ):
-            raise ValueError(
-                f"{target.relative_to(ROOT)} muss ein Objekt aus String-Werten sein."
-            )
-        existing.update(loaded)
+    if not languages:
+        raise ValueError(
+            "manifest.json: 'languages' darf nicht leer sein."
+        )
 
-    # Neue Übersetzungen überschreiben denselben vorhandenen Schlüssel.
-    existing.update(upload)
-    write_translation_json(target, existing)
+    normalized = {
+        language.strip()
+        for language in languages
+    }
+
+    if len(normalized) != len(languages):
+        raise ValueError(
+            "manifest.json enthält doppelte oder ungültige Sprachen."
+        )
+
+    return normalized
+
+
+def sorted_dict(data: dict[str, Any]) -> dict[str, Any]:
+    return dict(
+        sorted(
+            data.items(),
+            key=lambda item: item[0].casefold(),
+        )
+    )
+
+
+def validate_name_upload(
+    upload_path: Path,
+    upload: Any,
+) -> dict[str, str]:
+    if not isinstance(upload, dict):
+        raise ValueError(
+            f"{upload_path.name}: Erwartet wird ein JSON-Objekt "
+            'im Format {"Enemy-ID": "Übersetzter Name"}.'
+        )
+
+    validated: dict[str, str] = {}
+
+    for enemy_id, enemy_name in upload.items():
+        if not isinstance(enemy_id, str):
+            raise ValueError(
+                f"{upload_path.name}: Enemy-IDs müssen Strings sein."
+            )
+
+        if not isinstance(enemy_name, str):
+            raise ValueError(
+                f"{upload_path.name}: Der Name für {enemy_id!r} "
+                "muss ein String sein."
+            )
+
+        enemy_id = enemy_id.strip()
+        enemy_name = enemy_name.strip()
+
+        if not enemy_id:
+            raise ValueError(
+                f"{upload_path.name}: Eine Enemy-ID darf nicht leer sein."
+            )
+
+        if not enemy_name:
+            raise ValueError(
+                f"{upload_path.name}: Der Name für {enemy_id!r} "
+                "darf nicht leer sein."
+            )
+
+        validated[enemy_id] = enemy_name
+
+    return validated
+
+
+def load_existing_names(path: Path) -> dict[str, str]:
+    if not path.exists():
+        return {}
+
+    loaded = read_json(path)
+
+    if not isinstance(loaded, dict):
+        raise ValueError(
+            f"{path.relative_to(ROOT)} muss ein JSON-Objekt sein."
+        )
+
+    names: dict[str, str] = {}
+
+    for enemy_id, enemy_name in loaded.items():
+        if not isinstance(enemy_id, str) or not isinstance(enemy_name, str):
+            raise ValueError(
+                f"{path.relative_to(ROOT)} muss ausschließlich "
+                "String-Schlüssel und String-Werte enthalten."
+            )
+
+        clean_id = enemy_id.strip()
+        clean_name = enemy_name.strip()
+
+        if not clean_id or not clean_name:
+            raise ValueError(
+                f"{path.relative_to(ROOT)} enthält einen leeren "
+                "Gegner-Schlüssel oder Namen."
+            )
+
+        names[clean_id] = clean_name
+
+    return names
+
+
+def load_existing_core_enemies(
+    path: Path,
+) -> dict[str, dict[str, Any]]:
+    if not path.exists():
+        return {}
+
+    loaded = read_json(path)
+
+    if not isinstance(loaded, dict):
+        raise ValueError(
+            f"{path.relative_to(ROOT)} muss ein JSON-Objekt sein."
+        )
+
+    enemies: dict[str, dict[str, Any]] = {}
+
+    for enemy_id, metadata in loaded.items():
+        if not isinstance(enemy_id, str) or not enemy_id.strip():
+            raise ValueError(
+                f"{path.relative_to(ROOT)} enthält eine ungültige Enemy-ID."
+            )
+
+        if not isinstance(metadata, dict):
+            raise ValueError(
+                f"{path.relative_to(ROOT)}: Metadaten für {enemy_id!r} "
+                "müssen ein JSON-Objekt sein."
+            )
+
+        enemies[enemy_id.strip()] = metadata
+
+    return enemies
+
+
+def merge_name_upload(
+    upload_path: Path,
+    world: str,
+    language: str,
+) -> None:
+    upload_raw = read_json(upload_path)
+    upload = validate_name_upload(upload_path, upload_raw)
+
+    translation_target = (
+        ROOT
+        / "i18n"
+        / language
+        / "enemies"
+        / f"{world}.json"
+    )
+
+    core_target = (
+        ROOT
+        / "core"
+        / "enemies"
+        / f"{world}.json"
+    )
+
+    # Übersetzungen zusammenführen.
+    existing_names = load_existing_names(translation_target)
+
+    # Neue Werte überschreiben vorhandene Übersetzungen derselben ID.
+    existing_names.update(upload)
+
+    write_json(
+        translation_target,
+        sorted_dict(existing_names),
+    )
+
+    # Enemy-IDs in die Core-Datei übernehmen.
+    existing_enemies = load_existing_core_enemies(core_target)
+
+    for enemy_id in upload:
+        # Vorhandene Metadaten niemals überschreiben.
+        existing_enemies.setdefault(enemy_id, {})
+
+    write_json(
+        core_target,
+        sorted_dict(existing_enemies),
+    )
 
 
 def main() -> None:
-    contribute.mkdir(parents=True, exist_ok=True)
+    CONTRIBUTE_DIR.mkdir(parents=True, exist_ok=True)
 
     uploads = sorted(
         (
             path
-            for path in contribute.iterdir()
-            if path.is_file() and path.suffix.lower() == ".json"
+            for path in CONTRIBUTE_DIR.iterdir()
+            if path.is_file()
+            and path.suffix.lower() == ".json"
         ),
         key=lambda path: path.name.casefold(),
     )
@@ -207,33 +259,51 @@ def main() -> None:
         print("Keine JSON-Uploads in contribute/ gefunden.")
         return
 
-    processed: list[Path] = []
+    supported_languages = load_supported_languages()
 
+    processed: list[Path] = []
     for upload_path in uploads:
         match = UPLOAD_PATTERN.fullmatch(upload_path.name)
+
         if not match:
             raise ValueError(
                 f"Ungültiger Dateiname: {upload_path.name}\n"
-                "Erlaubt sind:\n"
-                "  enemy_zones__<Welt>__<Sprache>.json\n"
+                "Erlaubtes Format:\n"
                 "  enemy_names__<Welt>__<Sprache>.json"
             )
 
-        kind, world, language = match.groups()
+        world, language = match.groups()
+        if language not in supported_languages:
+            supported = ", ".join(
+                sorted(supported_languages, key=str.casefold)
+            )
 
-        if kind == "zones":
-            merge_zone_upload(upload_path, world)
-        else:
-            merge_name_upload(upload_path, world, language)
+            raise ValueError(
+                f"{upload_path.name}: Sprache {language!r} "
+                f"wird nicht unterstützt. "
+                f"Erlaubt sind: {supported}"
+            )
+
+        merge_name_upload(
+            upload_path,
+            world,
+            language,
+        )
 
         processed.append(upload_path)
-        print(f"Verarbeitet: {upload_path.relative_to(ROOT)}")
+
+        print(
+            f"Verarbeitet: {upload_path.relative_to(ROOT)}"
+        )
 
     # Erst löschen, nachdem alle Uploads erfolgreich verarbeitet wurden.
     for upload_path in processed:
         upload_path.unlink()
 
-    print(f"{len(processed)} Upload-Datei(en) erfolgreich verarbeitet.")
+    print(
+        f"{len(processed)} Upload-Datei(en) "
+        "erfolgreich verarbeitet."
+    )
 
 
 if __name__ == "__main__":

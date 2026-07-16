@@ -1,4 +1,4 @@
-name: Merge enemy uploads
+name: Merge enemy names
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Uploads validieren und mergen
+      - name: Gegnernamen und Core-Gegner mergen
         run: python scripts/merge_enemy_uploads.py
 
       - name: Änderungen committen
@@ -39,6 +39,7 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add core/enemies i18n contribute
-          git commit -m "Merge uploaded enemy data"
+          git commit -m "Merge uploaded enemy names"
           git push
