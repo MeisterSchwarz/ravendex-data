@@ -1,0 +1,10 @@
+{
+    "HT_AdventurersHelm": {"id": 0},
+    "HT_AntiqueHelm": {"id": 1},
+    "HT_ChargedCover": {"id": 2},
+    "HT_CrownOfSeasons": {"id": 3},
+    "HT_MartyrsHat": {"id": 4},
+    "HT_NovicesHat": {"id": 5},
+    "HT_SoftHood": {"id": 6},
+    "HT_SturdyHat": {"id": 7}
+}

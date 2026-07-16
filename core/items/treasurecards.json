@@ -1,4 +1,11 @@
 {
     "TC_Troll": {"id": 0},
-    "TC_LocustSwarm": {"id": 1}
+    "TC_LocustSwarm": {"id": 1},
+    "TC_FireShield": {"id": 2},
+    "TC_Imp": {"id": 3},
+    "TC_Pixie": {"id": 4},
+    "TC_Scarab": {"id": 5},
+    "TC_SnowShield": {"id": 6},
+    "TC_ThunderSnake": {"id": 7},
+    "TC_BloodBat": {"id": 8}
 }

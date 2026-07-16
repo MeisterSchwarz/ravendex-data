@@ -1,4 +1,8 @@
 {
     "SN_CheeseBroccoli": {"id": 0},
-    "SN_TinyFish": {"id": 1}
+    "SN_TinyFish": {"id": 1},
+    "SN_BlondeStrawberry": {"id": 2},
+    "SN_ChocolateStrawberry": {"id": 3},
+    "SN_GummyFirecat": {"id": 4},
+    "SN_SugarDonut": {"id": 5}
 }
