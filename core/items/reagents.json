@@ -1,0 +1,8 @@
+{
+    "RG_Brass": {"id": 0},
+    "RG_SpiderSilk": {"id": 1},
+    "RG_Steel": {"id": 2},
+    "RG_Copper": {"id": 3},
+    "RG_Nickel": {"id": 4},
+    "RG_LeatherStraps": {"id": 5}
+}

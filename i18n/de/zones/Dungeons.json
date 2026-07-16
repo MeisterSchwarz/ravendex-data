@@ -7,6 +7,12 @@
     "G14_DM/Interiors/DM_Z08_I03_SkeletonKey2": ["Friedhof", "Aphrodite II"],
 
     "G14_HS/HS_Z01_ZigazagUpper": "Oberer Zickezack",
+    "G14_HS/HS_Z02_ZigazagLower": "Unterer Zickezack",
+    "G14_HS/Interiors/HS_Z02_I01_TollHouse": ["Unterer Zickezack", "Zahlhaus"],
+    "G14_HS/HS_Z04_HouseOfScales": ["Halle der Waagschalen", "Halle der Echos"],
+    "G14_HS/HS_Z05_ChamberOfTheSistrum": ["Halle der Waagschalen", "Halle des Sistrums"],
+    "G14_HS/HS_Z06_ChamberOfReeds": ["Halle der Waagschalen", "Die Allerlängste Halle"],
+    "G14_HS/HS_Z07_HallOfJustice": ["Halle der Waagschalen", "Halle der Gerechtigkeit"],
     "G14_SB/SB_Z01_KimbaalungVillage": "Kembaalung",
     "G14_SB/SB_Z02_PagodaRoom01": "Pagode der Harmonie (1/3)",
     "G14_SB/SB_Z03_PagodaRoom02": "Pagode der Harmonie (2/3)",
