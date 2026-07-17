@@ -1,6 +1,8 @@
-{ 
-    "zones": { 
-        "DragonSpire/DS_Hub_Cathedral": {} 
-    
-    } 
+{
+  "zones": {
+    "DragonSpire/DS_A1_Knowledge/DS_A1Hub_Library": {},
+    "DragonSpire/DS_A1_Knowledge/DS_A1Z2_ConquestPlaza": {},
+    "DragonSpire/DS_A1_Knowledge/Interiors/DS_Library_Interior": {},
+    "DragonSpire/DS_Hub_Cathedral": {}
+  }
 }
