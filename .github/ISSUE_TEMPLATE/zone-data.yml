@@ -1,0 +1,39 @@
+name: Fehlende Gebietsdaten einreichen
+description: Gebietsnamen als automatisch erzeugte JSON-Datei einreichen
+title: "[Zone data]: "
+labels:
+  - data
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für deinen Beitrag.
+
+        Bitte hänge die automatisch erzeugte JSON-Datei unten per
+        Drag-and-drop an. Welt und Sprache werden automatisch aus dem
+        Dateinamen ermittelt.
+
+  - type: textarea
+    id: attachments
+    attributes:
+      label: JSON-Datei
+      description: |
+        Ziehe die Datei in dieses Feld:
+
+        missing_zones__<Welt>__<Sprache>.json
+
+        Beispiel:
+
+        missing_zones__WizardCity__de.json
+      placeholder: Datei hier hineinziehen …
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Bestätigung
+      options:
+        - label: Die Datei wurde automatisch erzeugt und nicht manuell umbenannt.
+          required: true
