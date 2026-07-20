@@ -4,5 +4,6 @@
     "RG_Steel": {"id": 2},
     "RG_Copper": {"id": 3},
     "RG_Nickel": {"id": 4},
-    "RG_LeatherStraps": {"id": 5}
+    "RG_LeatherStraps": {"id": 5},
+    "RG_OutsiderRelic": {"id": 6}
 }

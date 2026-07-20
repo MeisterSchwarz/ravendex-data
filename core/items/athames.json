@@ -5,5 +5,19 @@
     "AT_RitualAthame": { "id": 3 },
      "AT_JadeStuddedAthame": { "id": 4 },
     "AT_JeweledDagger": { "id": 5 },
-    "AT_SimpleDirk": { "id": 6 }
+    "AT_SimpleDirk": { "id": 6 },
+    "AT_ChillingAbominationAthame": { "id": 7 },
+    "AT_DoomedAbominationAthame": { "id": 8 },
+    "AT_MythicAbominationAthame": { "id": 9 },
+    "AT_SanguineAbominationAthame": { "id": 10 },
+    "AT_ScaryAbominationAthame": { "id": 11 },
+    "AT_ScholomanticDeathKnife": { "id": 12 },
+    "AT_ScholomanticDestructiveKnife": { "id": 13 },
+    "AT_ScholomanticDevilishKnife": { "id": 14 },
+    "AT_ScholomanticFortuneKnife": { "id": 15 },
+    "AT_ScholomanticJusticeKnife": { "id": 16 },
+    "AT_ScholomanticStrengthKnife": { "id": 17 },
+    "AT_ScholomanticWorldlyKnife": { "id": 18 },
+    "AT_ShockingAbominationAthame": { "id": 19 },
+    "AT_TenseAbominationAthame": { "id": 20 }
 }

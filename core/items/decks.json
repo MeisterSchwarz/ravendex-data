@@ -1,3 +1,17 @@
 {
-    "DK_PinewoodDeck": { "id": 0 }
+    "DK_PinewoodDeck": { "id": 0 },
+    "DK_ChillingAbominationBox": { "id": 1 },
+    "DK_DoomedAbominationBox": { "id": 2 },
+    "DK_MythicAbominationBox": { "id": 3 },
+    "DK_SanguineAbominationBox": { "id": 4 },
+    "DK_ScaryAbominationBox": { "id": 5 },
+    "DK_ScholomanticDeathDeck": { "id": 6 },
+    "DK_ScholomanticDestructiveDeck": { "id": 7 },
+    "DK_ScholomanticDevilishDeck": { "id": 8 },
+    "DK_ScholomanticFortuneDeck": { "id": 9 },
+    "DK_ScholomanticJusticeDeck": { "id": 10 },
+    "DK_ScholomanticStrengthDeck": { "id": 11 },
+    "DK_ScholomanticWorldlyDeck": { "id": 12 },
+    "DK_ShockingAbominationBox": { "id": 13 },
+    "DK_TenseAbominationBox": { "id": 14 }
 }
