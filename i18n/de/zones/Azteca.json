@@ -5,12 +5,12 @@
   "Azteca/AZ_Z03_MangroveMarsh": "Mangrovensümpfe",
   "Azteca/AZ_Z04_SaltmeadowSwamp": "Salzmarschen",
   "Azteca/AZ_Z05_ZultunDock": "Zultun-Dock",
+  "Azteca/AZ_Z06_CloudburstIsland": "Wolkenbruch-Wald",
   "Azteca/AZ_Z07_TierraDeBrea": "Tierra De Brea",
+  "Azteca/AZ_Z09_AltoAlto": "Alto Alto",
   "Azteca/AZ_Z10_FloatingMountains": "Schwebende Berge",
-
   "Azteca/Interiors/AZ_Z00_HungryLizard": ["Der Zocalo", "Teuch Hungerechs"],
   "Azteca/Interiors/AZ_Z00_YacatesHouse": ["Der Zocalo", "Malakeen Mondtrunken"],
-
   "Azteca/Interiors/AZ_Z01_BlackSunPyramid_Room01": ["Pyramide d. Schwarzen Sonne", "Untere Kammer (1/4)"],
   "Azteca/Interiors/AZ_Z01_BlackSunPyramid_Room02": ["Pyramide d. Schwarzen Sonne", "Untere Kammer (2/4)"],
   "Azteca/Interiors/AZ_Z01_BlackSunPyramid_Room03": ["Pyramide d. Schwarzen Sonne", "Untere Kammer (3/4)"],
@@ -20,7 +20,6 @@
   "Azteca/Interiors/AZ_Z01_BlackSunPyramid_Room07": ["Pyramide d. Schwarzen Sonne", "Belloq"],
   "Azteca/Interiors/AZ_Z01_JuraPalace_Room01": ["Dreispitz", "Jurapalast"],
   "Azteca/Interiors/AZ_Z01_JuraPalace_Room02": ["Dreispitz", "Königliches Gemach"],
-
   "Azteca/Interiors/AZ_Z02_Mine01": ["Cenote", "Tiefe Minen (1/4)"],
   "Azteca/Interiors/AZ_Z02_Mine01_02": ["Cenote", "Tiefe Minen (2/4)"],
   "Azteca/Interiors/AZ_Z02_Mine01_03": ["Cenote", "Tiefe Minen (3/4)"],
@@ -28,7 +27,6 @@
   "Azteca/Interiors/AZ_Z02_Mine03": ["Cenote", "Guillermo Trümmerbein"],
   "Azteca/Interiors/AZ_Z02_Tomb01": ["Cenote", "Azcal Feuerameise"],
   "Azteca/Interiors/AZ_Z02_WhiteFirePyramid": ["Cenote", "Skurki Mondschrei"],
-
   "Azteca/Interiors/AZ_Z03_HallOfPlumage_Room01": "Halle der Federn",
   "Azteca/Interiors/AZ_Z03_HallOfPlumage_Room03": ["Halle der Federn", "Natronkugel-Lager"],
   "Azteca/Interiors/AZ_Z03_HallOfPlumage_Room04": ["Halle der Federn", "Caquix Neuschatten"],
@@ -37,7 +35,6 @@
   "Azteca/Interiors/AZ_Z03_Tomb03": ["Mangrovensümpfe", "Mozar Schildjagd"],
   "Azteca/Interiors/AZ_Z03_Tomb04": ["Mangrovensümpfe", "Uacalxochitl Blutauge"],
   "Azteca/Interiors/AZ_Z03_Tomb05": ["Mangrovensümpfe", "Coatl-Erdmutter"],
-
   "Azteca/Interiors/AZ_Z04_Clearing01": ["Salzmarschen", "Yak Vielzähler"],
   "Azteca/Interiors/AZ_Z04_DeadTreeCavern": ["Salzmarschen", "Totholz-Höhle"],
   "Azteca/Interiors/AZ_Z04_MonquistanShipHold": ["Salzmarschen", "Ponce de Gibbon"],
@@ -47,6 +44,10 @@
   "Azteca/Interiors/AZ_Z04_TreeOfSecrets01": ["Salzmarschen", "Fuego-Geist"],
   "Azteca/Interiors/AZ_Z04_TreeOfSecrets02": ["Salzmarschen", "Tempestad-Geist"],
   "Azteca/Interiors/AZ_Z04_TreeOfSecrets03": ["Salzmarschen", "Hielo-Geist"],
-
-  "Azteca/Interiors/AZ_Z05_Tower01": ["Zultun-Dock", "Chantico Blauluft"]
+  "Azteca/Interiors/AZ_Z05_CharredTower": ["Zultun-Dock", "Verkohlter Turm"],
+  "Azteca/Interiors/AZ_Z05_Tower01": ["Zultun-Dock", "Chantico Blauluft"],
+  "Azteca/Interiors/AZ_Z05_Tower02": ["Zultun-Dock", "Mazens Nest"],
+  "Azteca/Interiors/AZ_Z06_Cave01": ["Wolkenbruch-Wald", "Kanja Giftblumes Höhle"],
+  "Azteca/Interiors/AZ_Z06_Cave02": ["Wolkenbruch-Wald", "Höhle des Hungrigen Kaiman"],
+  "Azteca/Interiors/AZ_Z06_Clearing01": ["Wolkenbruch-Wald", "Lichtung"]
 }

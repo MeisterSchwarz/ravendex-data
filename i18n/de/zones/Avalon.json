@@ -14,29 +14,24 @@
   "Avalon/AV_Z12_GhostAvalon": "Geister-Avalon",
   "Avalon/AV_Z13_KeepOfGanelon": "Festung von Ganelon",
   "Avalon/AV_Z14_RestoredKeep": "Festung von Ganelon",
-
   "Avalon/Interiors/AV_MaestroEvent/AV_Z00_LandingZone": "Telegraphenbox",
   "Avalon/Interiors/AV_MaestroEvent/AV_Z01_School": ["Telegraphenbox", "Vasek Schattenflecht"],
   "Avalon/Interiors/AV_MaestroEvent/AV_Z02_DrakesCottage": ["Telegraphenbox", "Cyrus Drake"],
   "Avalon/Interiors/AV_MaestroEvent/AV_Z03_MalistairsHouse": ["Telegraphenbox", "Malistaire Drake"],
   "Avalon/Interiors/AV_MaestroEvent/AV_Z04_TowerBottom": ["Telegraphenbox", "Laslo Sternenschwert"],
   "Avalon/Interiors/AV_MaestroEvent/AV_Z04_TowerBottom_B": ["Telegraphenbox", "Laslo Sternenschwert"],
-  "Avalon/Interiors/AV_MaestroEvent/AZ_Z04_TowerBottom_C": ["Telegraphenbox", "Drachenklauen-Wache"],
   "Avalon/Interiors/AV_MaestroEvent/AV_Z05_TowerTop": ["Telegraphenbox", "Sagenhüterin"],
+  "Avalon/Interiors/AV_MaestroEvent/AZ_Z04_TowerBottom_C": ["Telegraphenbox", "Drachenklauen-Wache"],
   "Avalon/Interiors/AV_MaestroEvent/AZ_Z05_TowerTop_B": ["Telegraphenbox", "Elite-Kampfmagier"],
   "Avalon/Interiors/AV_MaestroEvent/AZ_Z06_ArtOfWar": ["Telegraphenbox", "Der Maestro"],
-
   "Avalon/Interiors/AV_Z00_FairyCircle_Cave": ["Calibur", "Schreckenswurm"],
-
   "Avalon/Interiors/AV_Z01_KnightsHall": ["Alte Abtei", "Halle der Ritter"],
   "Avalon/Interiors/AV_Z01_Library": ["Alte Abtei", "Bibliothek"],
-
   "Avalon/Interiors/AV_Z02_FireSpitter": ["Talstraße", "Kaorak der Feuerspeichler"],
   "Avalon/Interiors/AV_Z02_JabberwockLair": ["Talstraße", "Brasselbalg"],
   "Avalon/Interiors/AV_Z02_TowerHarlequin": ["Talstraße", "Harlekin-Ritter"],
   "Avalon/Interiors/AV_Z02_TowerRedThorn": ["Talstraße", "Rotdornen-Turm"],
-  "Avalon/Interiors/AV_Z02_Well": ["Talstraße", "Brunnen"],
-
+  "Avalon/Interiors/AV_Z02_Well": ["Talstraße", "Vergifteter Brunnen"],
   "Avalon/Interiors/AV_Z03_Archive": ["Carlyon", "Archiv"],
   "Avalon/Interiors/AV_Z03_ArchnalHideout": ["Carlyon", "Ofiera Kaltgift"],
   "Avalon/Interiors/AV_Z03_EstateAmber": ["Carlyon", "Haus von Innes Idle"],
@@ -48,7 +43,6 @@
   "Avalon/Interiors/AV_Z03_TowerMalgrins": ["Carlyon", "Malgrin der Peiniger"],
   "Avalon/Interiors/AV_Z03_TowerRuined": ["Carlyon", "Oger"],
   "Avalon/Interiors/AV_Z03_WILD_C16": ["Carlyon", "Morag Bloodtine"],
-
   "Avalon/Interiors/AV_Z04_Cave01": ["Wildnis", "Rizimus Flavel"],
   "Avalon/Interiors/AV_Z04_Cave02": ["Wildnis", "Kalista"],
   "Avalon/Interiors/AV_Z04_FrozenLake": ["Wildnis", "Winterwurm"],
@@ -56,7 +50,6 @@
   "Avalon/Interiors/AV_Z04_TowerDreadKeep": ["Wildnis", "Maudit Seelenfluch"],
   "Avalon/Interiors/AV_Z04_WhiteOwlTower": ["Wildnis", "Turm der Weißeulen"],
   "Avalon/Interiors/AV_Z04_WOwlGarden": ["Wildnis", "Kella Weißkralle"],
-
   "Avalon/Interiors/AV_Z05_IndigoGiant": ["Wagnis", "Indigo-Riese"],
   "Avalon/Interiors/AV_Z05_LostAbbey": ["Wagnis", "Herr der Brockengespenster"],
   "Avalon/Interiors/AV_Z05_TombNameless": ["Wagnis", "Grab des Namenlosen Ritters"],
@@ -64,29 +57,22 @@
   "Avalon/Interiors/AV_Z05_TowerFroudling01": ["Wagnis", "Gintha"],
   "Avalon/Interiors/AV_Z05_TowerFroudling02": ["Wagnis", "Heidi Eisennagel"],
   "Avalon/Interiors/AV_Z05_TowerFroundling3": ["Wagnis", "Hürgh der Quetscher"],
-
   "Avalon/Interiors/AV_Z06_Cave01": ["Dun Dara", "Kattalas der Gewitterwurm"],
   "Avalon/Interiors/AV_Z06_Cave02": ["Dun Dara", "Willi Wumms' Höhle"],
   "Avalon/Interiors/AV_Z06_TowerBelleRegard": ["Dun Dara", "Turm der schönen Aussicht"],
-
   "Avalon/Interiors/AV_Z07_Library": ["Schloss Avalon", "Königliche Bibliothek"],
   "Avalon/Interiors/AV_Z07_TowerBroken": ["Schloss Avalon", "Flazithus Haudrauf"],
   "Avalon/Interiors/AV_Z07_TowerOverlook": ["Schloss Avalon", "Polternde Pia"],
   "Avalon/Interiors/AV_Z07_TowerPrison": ["Schloss Avalon", "Gefängnisturm"],
   "Avalon/Interiors/AV_Z07_TowerSworn": ["Schloss Avalon", "Moros Blunt"],
-
   "Avalon/Interiors/AV_Z08_BogWitch": ["Seeufer", "Schwarze Anne"],
   "Avalon/Interiors/AV_Z08_TowerDolorous": ["Seeufer", "Nicoles Stele"],
-
   "Avalon/Interiors/AV_Z09_Cave01": ["Tiefer Grund", "Ertrunkener Ritter"],
   "Avalon/Interiors/AV_Z09_Cave02": ["Tiefer Grund", "Kerra Knöchelweiß"],
   "Avalon/Interiors/AV_Z09_Cave03": ["Tiefer Grund", "Sumpfhexe"],
   "Avalon/Interiors/AV_Z09_Cave04": ["Tiefer Grund", "Taran der Ertrunkene"],
-
   "Avalon/Interiors/AV_Z10_CptnChamber": ["Katakomben", "Kammer des Blutmeisters"],
   "Avalon/Interiors/AV_Z10_TombOfArtorius_Ruined": ["Katakomben", "Grabmal des Königs"],
-
   "Avalon/Interiors/AV_Z12_TombOfArtorius": ["Geister-Avalon", "Sir Malory"],
-
   "Avalon/Interiors/AV_Z13_CrystalCave_Int": ["Festung von Ganelon", "Drachenhöhle"]
 }

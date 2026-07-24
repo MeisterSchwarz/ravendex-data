@@ -6,12 +6,12 @@
     "Azteca/AZ_Z03_MangroveMarsh": {},
     "Azteca/AZ_Z04_SaltmeadowSwamp": {},
     "Azteca/AZ_Z05_ZultunDock": {},
+    "Azteca/AZ_Z06_CloudburstIsland": {},
     "Azteca/AZ_Z07_TierraDeBrea": {},
+    "Azteca/AZ_Z09_AltoAlto": {},
     "Azteca/AZ_Z10_FloatingMountains": {},
-
     "Azteca/Interiors/AZ_Z00_HungryLizard": {},
     "Azteca/Interiors/AZ_Z00_YacatesHouse": {},
-
     "Azteca/Interiors/AZ_Z01_BlackSunPyramid_Room01": {},
     "Azteca/Interiors/AZ_Z01_BlackSunPyramid_Room02": {},
     "Azteca/Interiors/AZ_Z01_BlackSunPyramid_Room03": {},
@@ -21,7 +21,6 @@
     "Azteca/Interiors/AZ_Z01_BlackSunPyramid_Room07": {},
     "Azteca/Interiors/AZ_Z01_JuraPalace_Room01": {},
     "Azteca/Interiors/AZ_Z01_JuraPalace_Room02": {},
-
     "Azteca/Interiors/AZ_Z02_Mine01": {},
     "Azteca/Interiors/AZ_Z02_Mine01_02": {},
     "Azteca/Interiors/AZ_Z02_Mine01_03": {},
@@ -29,7 +28,6 @@
     "Azteca/Interiors/AZ_Z02_Mine03": {},
     "Azteca/Interiors/AZ_Z02_Tomb01": {},
     "Azteca/Interiors/AZ_Z02_WhiteFirePyramid": {},
-
     "Azteca/Interiors/AZ_Z03_HallOfPlumage_Room01": {},
     "Azteca/Interiors/AZ_Z03_HallOfPlumage_Room03": {},
     "Azteca/Interiors/AZ_Z03_HallOfPlumage_Room04": {},
@@ -38,7 +36,6 @@
     "Azteca/Interiors/AZ_Z03_Tomb03": {},
     "Azteca/Interiors/AZ_Z03_Tomb04": {},
     "Azteca/Interiors/AZ_Z03_Tomb05": {},
-
     "Azteca/Interiors/AZ_Z04_Clearing01": {},
     "Azteca/Interiors/AZ_Z04_DeadTreeCavern": {},
     "Azteca/Interiors/AZ_Z04_MonquistanShipHold": {},
@@ -48,7 +45,11 @@
     "Azteca/Interiors/AZ_Z04_TreeOfSecrets01": {},
     "Azteca/Interiors/AZ_Z04_TreeOfSecrets02": {},
     "Azteca/Interiors/AZ_Z04_TreeOfSecrets03": {},
-
-    "Azteca/Interiors/AZ_Z05_Tower01": {}
+    "Azteca/Interiors/AZ_Z05_CharredTower": {},
+    "Azteca/Interiors/AZ_Z05_Tower01": {},
+    "Azteca/Interiors/AZ_Z05_Tower02": {},
+    "Azteca/Interiors/AZ_Z06_Cave01": {},
+    "Azteca/Interiors/AZ_Z06_Cave02": {},
+    "Azteca/Interiors/AZ_Z06_Clearing01": {}
   }
 }

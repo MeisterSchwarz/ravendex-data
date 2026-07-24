@@ -1,13 +1,5 @@
 {
   "zones": {
-    "WizardCity/WC_Duel_Arena": {},
-    "WizardCity/WC_Golem_Tower": {},
-    "WizardCity/WC_Hub": {},
-    "WizardCity/WC_NightSide": {},
-    "WizardCity/WC_Ravenwood": {},
-    "WizardCity/WC_Ravenwood_Teleporter": {},
-    "WizardCity/WC_Shop_Area": {},
-
     "WizardCity/Gauntlets/WC_Triton_Gauntlet1/WC_Triton_Gauntlet_01": {},
     "WizardCity/Gauntlets/WC_Triton_Gauntlet1/WC_Triton_Gauntlet_01a": {},
     "WizardCity/Gauntlets/WC_Triton_Gauntlet1/WC_Triton_Gauntlet_02": {},
@@ -17,7 +9,6 @@
     "WizardCity/Gauntlets/WC_Triton_Gauntlet1/WC_Triton_Gauntlet_06": {},
     "WizardCity/Gauntlets/WC_Triton_Gauntlet1/WC_Triton_Gauntlet_07": {},
     "WizardCity/Gauntlets/WC_Triton_Gauntlet1/WC_Triton_Gauntlet_08": {},
-
     "WizardCity/Interiors/WC_AltarChamber": {},
     "WizardCity/Interiors/WC_CastleTours": {},
     "WizardCity/Interiors/WC_Fire_Cave": {},
@@ -38,29 +29,32 @@
     "WizardCity/Interiors/WC_SchoolMyth": {},
     "WizardCity/Interiors/WC_SchoolStorm": {},
     "WizardCity/Interiors/WC_Shop_Athames": {},
-    "WizardCity/Interiors/WC_ShopDye": {},
     "WizardCity/Interiors/WC_Shop_Jeweler": {},
     "WizardCity/Interiors/WC_Shop_Makeup": {},
     "WizardCity/Interiors/WC_Shop_Robes": {},
+    "WizardCity/Interiors/WC_ShopDye": {},
     "WizardCity/Interiors/WC_Spiral_Cinematic": {},
     "WizardCity/Interiors/WC_TowerFire": {},
     "WizardCity/Interiors/WC_TowerIce": {},
     "WizardCity/Interiors/WC_TowerLife": {},
     "WizardCity/Interiors/WC_TowerMyth": {},
     "WizardCity/Interiors/WC_TowerStorm": {},
-
+    "WizardCity/WC_Duel_Arena": {},
+    "WizardCity/WC_Golem_Tower": {},
+    "WizardCity/WC_Hub": {},
+    "WizardCity/WC_NightSide": {},
+    "WizardCity/WC_Ravenwood": {},
+    "WizardCity/WC_Ravenwood_Teleporter": {},
+    "WizardCity/WC_Shop_Area": {},
     "WizardCity/WC_Streets/Interiors/WC_Colossus_Balcony": {},
     "WizardCity/WC_Streets/Interiors/WC_Colossus_H1": {},
     "WizardCity/WC_Streets/Interiors/WC_Colossus_ThroneRoom": {},
-
     "WizardCity/WC_Streets/Interiors/WC_Cyclops_H1": {},
     "WizardCity/WC_Streets/Interiors/WC_Cyclops_T1": {},
     "WizardCity/WC_Streets/Interiors/WC_Cyclops_T2": {},
-
     "WizardCity/WC_Streets/Interiors/WC_DarkCave_H1": {},
     "WizardCity/WC_Streets/Interiors/WC_DarkCave_MalistairesHouse": {},
     "WizardCity/WC_Streets/Interiors/WC_DarkCave_MalistairesSanctum": {},
-
     "WizardCity/WC_Streets/Interiors/WC_Firecat_CabalSafehouse": {},
     "WizardCity/WC_Streets/Interiors/WC_Firecat_CabalSafehouse02": {},
     "WizardCity/WC_Streets/Interiors/WC_Firecat_H2": {},
@@ -68,26 +62,20 @@
     "WizardCity/WC_Streets/Interiors/WC_Firecat_T2": {},
     "WizardCity/WC_Streets/Interiors/WC_Firecat_T3": {},
     "WizardCity/WC_Streets/Interiors/WC_Firecat_Theatre": {},
-
     "WizardCity/WC_Streets/Interiors/WC_HauntedCave_T1": {},
-
     "WizardCity/WC_Streets/Interiors/WC_OldeTown_AuctionHouse": {},
+    "WizardCity/WC_Streets/Interiors/WC_OldeTown_T1": {},
     "WizardCity/WC_Streets/Interiors/WC_OldeTown_T2": {},
-
+    "WizardCity/WC_Streets/Interiors/WC_PET_Park": {},
     "WizardCity/WC_Streets/Interiors/WC_Sunken_City_T1": {},
     "WizardCity/WC_Streets/Interiors/WC_Sunken_City_T2": {},
     "WizardCity/WC_Streets/Interiors/WC_Sunken_City_T3": {},
-
     "WizardCity/WC_Streets/Interiors/WC_Triton_H3": {},
-
     "WizardCity/WC_Streets/Interiors/WC_Unicorn_H2": {},
     "WizardCity/WC_Streets/Interiors/WC_Unicorn_H3": {},
     "WizardCity/WC_Streets/Interiors/WC_Unicorn_HedgeMaze": {},
     "WizardCity/WC_Streets/Interiors/WC_Unicorn_T1": {},
     "WizardCity/WC_Streets/Interiors/WC_Unicorn_T2": {},
-
-    "WizardCity/WC_Streets/Interiors/WC_PET_Park": {},
-
     "WizardCity/WC_Streets/WC_Colossus": {},
     "WizardCity/WC_Streets/WC_Cyclops": {},
     "WizardCity/WC_Streets/WC_DarkCave": {},
