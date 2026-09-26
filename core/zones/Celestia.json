@@ -36,6 +36,9 @@
     "Celestia/Interiors/CL_Z10i8_Kingdom_Of_The_Crabs": {},
 
     "Celestia/Interiors/CL_Z12i1_Test_Of_The_Spheres": {},
-    "Celestia/Interiors/CL_Z12i2_Test_Of_The_Spheres": {}
+    "Celestia/Interiors/CL_Z12i2_Test_Of_The_Spheres": {},
+    "Celestia/Interiors/PageEvent/CL_BossRoom": {},
+    "Celestia/Interiors/PageEvent/CL_LandingZone": {},
+    "Celestia/Interiors/PageEvent/CL_TrashMobs": {}
   }
 }

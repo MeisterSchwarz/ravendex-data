@@ -1,0 +1,25 @@
+DM_Blob_Shadow_A_02: {}
+DM_Human_LabAssistant_A_01: {}
+DM_Human_LabAssistant_A_03: {}
+DM_Mutant_Darkmoor_A_01:  
+  affinites:
+    life: 30
+    any: -49
+    death: -79
+DM_Mutant_Darkmoor_A_02: 
+  affinites:
+    life: 30
+    any: -49
+    death: -79
+DM_Mutant_Darkmoor_A_03: 
+  affinites:
+      life: 30
+      any: -49
+      death: -79
+DM_Mutant_Robe_A_01: 
+  affinites:
+    life: 30
+    any: -49
+    death: -79
+DM_Scholomari_PriestessF_B_01: {}
+DM_Werewolf_Lord_A_01: {}

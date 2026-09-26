@@ -1,3 +1,7 @@
+CL-ColossusEarth-R10:
+  affinities:
+    death: 25
+    life: -25
 CL-Wildclaw-Brown-PageEvent:
   affinities:
     fire: 20
@@ -7,3 +11,6 @@ CL-Wildclaw-Brown-R9:
   affinities:
     fire: -25
     ice: 25
+Student-Life-PageEvent:
+  affinities: 
+    any: 0
